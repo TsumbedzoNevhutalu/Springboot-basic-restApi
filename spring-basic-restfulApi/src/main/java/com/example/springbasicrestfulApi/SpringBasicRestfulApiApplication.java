@@ -8,6 +8,7 @@ public class SpringBasicRestfulApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBasicRestfulApiApplication.class, args);
-	}
 
+		System.out.println("Running on port 8080");
+}
 }
